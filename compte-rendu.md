@@ -45,7 +45,7 @@ Voici le code transformé :
 # ==============================================================================
 # 📘 PROJET DATA SCIENCE : CYBERSECURITY THREAT ANALYSIS
 # ==============================================================================
-# Ce script suit la structure "Paillasse de Laboratoire" du guide de correction.
+
 # Objectif : Nettoyer, Explorer et Modéliser des menaces de cybersécurité.
 # ==============================================================================
 
