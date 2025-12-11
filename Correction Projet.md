@@ -2,7 +2,7 @@
 
 # 📘 GRAND GUIDE : ANATOMIE D'UN PROJET DATA SCIENCE
 
-Ce document décortique chaque étape du cycle de vie d'un projet de Machine Learning. Il est conçu pour passer du niveau "débutant qui copie du code" au niveau "ingénieur qui comprend les mécanismes internes".
+Ce document décortique chaque étape du cycle de vie d'un projet de Machine Learning. 
 
 ---
 
