@@ -259,7 +259,7 @@ Le notebook a dû gérer deux types de données, contrairement au projet médica
 1.  **Imputation Numérique :** Pour des colonnes comme `Financial Loss`, le code a utilisé la **Moyenne** (Mean). Les trous ont été bouchés par la valeur moyenne calculée (~50.63 Millions $).
 2.  **Imputation Catégorielle :** Pour les colonnes textuelles (ex: type d'attaque), le code a utilisé le **Mode** (la valeur la plus fréquente).
 
-### 💡 Le Coin de l'Expert (Data Leakage)
+###  Le Coin de l'Expert (Data Leakage)
 *Observation Critique :* Dans le notebook, le nettoyage (Étape 4) semble avoir été effectué sur l'ensemble du dataset *avant* le split Train/Test.
 * **Verdict :** Il y a un risque de **Data Leakage**. En calculant la moyenne des pertes financières sur les 3000 lignes (y compris celles qui serviront au test), le modèle a "triché" en voyant indirectement des informations du futur. Dans un environnement de production strict, il faudrait `fit` l'imputer uniquement sur le Train Set.
 
