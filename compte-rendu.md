@@ -36,11 +36,11 @@ Avec la numérisation croissante des infrastructures mondiales, le volume et la 
 2. Objectifs du Projet
 L'objectif principal est de développer un modèle de Machine Learning (Apprentissage Supervisé) capable de :
 
-Analyser les logs de trafic réseau historiques.
+-Analyser les logs de trafic réseau historiques.
 
-Identifier les modèles (patterns) suspects.
+-Identifier les modèles (patterns) suspects.
 
-Classifier avec précision le type d'attaque (Malware, DDoS, Phishing, Intrusion, etc.) ou de déterminer si le trafic est bénin.
+-Classifier avec précision le type d'attaque (Malware, DDoS, Phishing, Intrusion, etc.) ou de déterminer si le trafic est bénin.
 
 3. Les Données (Dataset)
 Le projet s'appuie sur le jeu de données Global Cybersecurity Threats, couvrant une période de 9 ans (2015-2024).
